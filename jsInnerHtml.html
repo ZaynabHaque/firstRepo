@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JS basics</title>
+<style>
+	body {
+		background: rgba(95,146,42,1.00)
+	}
+	#btn1{
+		background: red;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+	#btn2{
+		background: blue;		
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+	#btn3{
+		background: yellow;	
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+	#btn4{
+	
+		background: pink;	
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	
+	}
+	#btn5{
+		background: goldenrod;	
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+	#btn6{
+	
+		background: gray;	
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	
+	}
+	</style>
+</head>
+
+<body id="bdy">
+<p>Whats 2+3</p>
+	<input type="radio" name="quiz" value="4" id="num4"/> 4
+	<input type="radio" name="quiz" value="3" id="num3"/> 3
+	<input type="radio" name="quiz" value="6" id="num6"/> 6
+	<input type="radio" name="quiz" value="5" id="num5"/> 5
+<button id="btn">Check</button>
+<!--<center><input type="text" id="txt">
+<BUTTON id="btn">SOme Text Here</BUTTON>
+<H3 id="txtvalue">Your Text Here</H3>
+
+<button id="btn1">button 1</button>
+<button id="btn2">button 2</button>
+<button id="btn3">button 3</button>
+<button id="btn4">button 4</button>
+<button id="btn5">button 5</button>
+<button id="btn6">button 6</button>
+</center>
+<button id="myBtn"> Create Some Text Now !</button>
+<p id="empty">i'm ....</p> 
+
+<input type="text" id="n1">
+<input type="text" id="n2">
+<button id="result"><h1>ADD</h1> </button>-->
+<script>
+	/* var num = Math.floor(Math.random()*50)+1;
+	
+	document.getElementById("myBtn").onclick = function(){
+	document.getElementById("empty").innerHTML = num;
+	} 
+
+	document.getElementById("myBtn").onclick = function(){
+		
+		var a = 5;
+		var b = 2;
+		var c = a+b;
+		document.write(c);		
+	}
+	
+	document.getElementById("myBtn").onclick = function(){
+	document.getElementById("empty").innerHTML = document.getElementById("empty").innerHTML +"awesome";
+	}
+	
+	document.getElementById("result").onclick = function(value1 , value2){
+	 value1= parseInt(document.getElementById("n1").value);
+     value2=parseInt(document.getElementById("n2").value);
+    var sum=value1+value2;
+		
+    document.getElementById("result").value=sum;
+		document.write(sum);
+	}
+	
+	document.getElementById("btn1").onclick = function(){
+
+	document.getElementById("bdy").style.background = "red";
+	}
+	document.getElementById("btn2").onclick = function(){
+	
+	document.getElementById("bdy").style.background = "blue";
+	}
+	document.getElementById("btn3").onclick = function(){
+		
+	document.getElementById("bdy").style.background = "yellow";
+	}
+	document.getElementById("btn4").onclick = function(){
+		
+	document.getElementById("bdy").style.background = "pink";
+	}
+	document.getElementById("btn5").onclick = function(){
+		
+	document.getElementById("bdy").style.background = "goldenrod";
+	}
+	document.getElementById("btn6").onclick = function(){
+		
+	document.getElementById("bdy").style.background = "gray";
+	}
+	
+	document.getElementById("btn").onclick = function(){
+	var txtEntr = "";
+		txtEntr = document.getElementById("txt").value;
+		document.getElementById("txtvalue").innerHTML = txtEntr;
+	}
+	var arry = new Array();
+	arry[0] = "Zainab";
+	arry[1] = "Zoha";
+	arry[2] = "Zaara";
+	arry[3] = "Zoya";
+	document.write(arry);
+	var arrays = ["CSS", "HTML" , "JS" , "PHP"];
+	arrays.push("jQuery");
+	arrays.push("Python");
+	arrays.pop();
+	arrays.splice(1,4);
+	document.write(arrays);
+	document.getElementById("btn").onclick = function(){
+		
+		var enteredLanguage = document.getElementById("texts").value;
+		var favLanguage = "HTML";
+		
+		if(enteredLanguage == favLanguage ){
+			
+			alert("Correct Answer ");
+		}
+		else{
+	alert("Sorry .. Incorrect Answer ..  ");
+		}
+	}*/
+	
+	document.getElementById("btn").onclick = function(){
+		var ansEntered = document.getElementById("num5").querySelector;
+		ans = 5;
+		if(ans == ansEntered){
+			alert("Good");
+		}
+		else{
+			alert("Bad");
+		}
+	}
+	</script>
+	
+</body>
+</html>
